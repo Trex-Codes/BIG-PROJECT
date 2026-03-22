@@ -1,55 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-	<meta charset="utf-8">
-	<title>ABOUT ME </title>
-	<meta name="author" content="Trex-Codes">
-	<meta name="description" content="Website about me, and my life">
-	<meta name="keywords" content="Website, Trex_Codes, life, about me">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1">
-	<link rel="stylesheet" href="About Me.css">
-	<link rel="icon" href="Assets/icon2.png">
+    <meta charset="utf-8">
+    <title>About Me | Trex-Codes</title>
+    <meta name="author" content="Trex-Codes">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="Base.css">
+    <link rel="stylesheet" href="About Me.css">
+    <link rel="icon" href="Assets/icon2.png">
 </head>
 <body>
-		<!-- header -->
-		<header id="webslax-01">
-			<h1 id="TEXT-TITLE">Lorem ipsum<br> dolor sit</h1>
-				<hr id="underline">
-				<h2 id="context-header">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Neque dolorum consectetur adipisci, laudantium velit<br> perspiciatis enim reprehenderit placeat. Eaque, adipisci!</h2>
-		</header>
 
-		<!-- section  -->
-		<section id="section"><br>
+    <!-- Sticky Navigation -->
+    <nav class="navbar glass">
+        <div class="container nav-content">
+            <div class="logo">TREX<span>.CODES</span></div>
+            <ul class="nav-links">
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="About Me.html" class="active">About Me</a></li>
+                <li><a href="Pictures.html">Gallery</a></li>
+            </ul>
+        </div>
+    </nav>
 
-				<!-- ARTICLE -->
-			<article id="article-1"><br>
-								<img class="img-1" src="Assets/photo-2.jpg">
-								<h2 class="sub-1">Lorem ipsum.</h2>
-								<hr id="underline-2">
+    <header class="about-hero">
+        <div class="container about-hero-content">
+            <h1 class="fade-in">JUAN <span>DEVELOPER</span></h1>
+            <div class="underline"></div>
+            <p class="fade-in-delayed">Passion for creating digital experiences that bridge the gap between imagination and reality.</p>
+        </div>
+    </header>
 
-				<!-- SUB ARTICLE -->
-				<article id="sub-article-1">
-					<p class="sub-article-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat optio amet incidunt ducimus exercitationem cumque mollitia labore eaque delectus est! </p>
-					<img id="img-sub-article-1" src="Assets/user.png">		
-				</article>
-			</article>		
-		</section>
+    <main class="container page-content">
+        <section class="bio-section">
+            <div class="bio-grid">
+                <article class="bio-main glass">
+                    <img src="Assets/photo-2.jpg" alt="Profile Photo" class="profile-img">
+                    <div class="bio-text">
+                        <h2>Biography</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolorum consectetur adipisci, laudantium velit perspiciatis enim reprehenderit placeat. Eaque, adipisci!</p>
+                    </div>
+                </article>
 
-	<section id="section-2">
-			<article id="sub-article-the2_1">
-					<img id="img-sub-article-the2_1" src="Assets/biography.jpg">
-						<h2 class="h2-sub-article-the2_1">Lorem ipsum.</h2>
-			</article>
+                <article class="bio-stats glass">
+                    <img src="Assets/user.png" alt="User Icon" class="stat-icon">
+                    <p>Building high-performance web applications with a focus on clean code and exceptional user experience.</p>
+                </article>
+            </div>
+        </section>
 
-			<article id="sub-article-the2_2">
-					<img id="img-sub-article-2" src="Assets/rocket.png">
-					<p class="sub-article-text-2">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas officia sed omnis nam ut accusantium sint hic dolorum soluta, quia earum dolorem harum quibusdam sit ratione quisquam in, esse magni.</p>
-			</article>	
-	</section>	
-	
-			<footer id="footer-end">
-				<p id="end">© Untitled. All  rights reserved. <span class="juan"><a href="https://github.com/juan1305">Trex_Codes</a></span></p>
-			</footer>
+        <section class="achievements-section grid-auto">
+            <article class="achievement-card glass">
+                <img src="Assets/biography.jpg" alt="Experience">
+                <div class="ach-body">
+                    <h3>Focus Area</h3>
+                    <p>Specializing in modern frontend technologies and artistic digital design.</p>
+                </div>
+            </article>
+
+            <article class="achievement-card glass">
+                <img src="Assets/rocket.png" alt="Mission" class="rocket-icon">
+                <div class="ach-body">
+                    <h3>Mission</h3>
+                    <p>To innovate and push the limits of what's possible in web development, one project at a time.</p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Trex_Codes. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://github.com/juan1305" target="_blank">GitHub</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>

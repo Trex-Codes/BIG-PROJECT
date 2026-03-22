@@ -1,0 +1,86 @@
+/* Base.css - Sistema de Diseño Premium */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Outfit:wght@400;700&display=swap');
+
+:root {
+    /* Paleta de Colores HSL - Premium Dark Mode */
+    --bg-dark: hsl(220, 20%, 8%);
+    --bg-card: hsla(220, 20%, 15%, 0.7);
+    --accent-emerald: hsl(155, 60%, 50%);
+    --accent-blue: hsl(210, 80%, 60%);
+    --text-primary: hsl(0, 0%, 95%);
+    --text-secondary: hsl(220, 10%, 70%);
+    --glass-border: hsla(0, 0%, 100%, 0.1);
+    
+    /* Espaciado y Sombras */
+    --container-max: 1200px;
+    --shadow-soft: 0 10px 30px hsla(0, 0%, 0%, 0.5);
+    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-primary);
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+h1, h2, h3 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+}
+
+a {
+    transition: var(--transition);
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Utilidades de Layout */
+.container {
+    max-width: var(--container-max);
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.glass {
+    background: var(--bg-card);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--glass-border);
+    border-radius: 1.5rem;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-auto {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+/* Animaciones de Hover */
+.btn-primary {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    background: var(--accent-emerald);
+    color: var(--bg-dark);
+    font-weight: 600;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px hsla(155, 60%, 50%, 0.3);
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px hsla(155, 60%, 50%, 0.5);
+}

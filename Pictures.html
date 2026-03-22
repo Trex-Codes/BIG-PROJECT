@@ -1,66 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-08">
-		<title>PICTURES | OTHER THROUGHTS</title>
-        <meta name="author" content="Trex-Codes">
-        <meta name="description" content="Web site based on some images">
-        <meta name="keywords" content="Web,site, trex, images">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1">
-		<link rel="icon" href="Assets/icon.png">
-        <link rel="stylesheet" type="text/css" href="PICTURES.css">
-	</head>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Gallery | Trex-Codes</title>
+    <meta name="author" content="Trex-Codes">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="Base.css">
+    <link rel="stylesheet" href="Pictures.css">
+    <link rel="icon" href="Assets/icon.png">
+</head>
 <body>
-	
-<header id="header">
-	<span class="avatar">
-		<img class="avatar" src="Assets/avatar3.jpg">
-	</span>
-</header>
-		<br><br>
-				
-			<h1 class="texto-header">This <span id="font">Visualize</span>,a responsive site template<br> design by<span id="font2"> <strong>ME</strong></span> and release for free under<br> the Creative Commons Licence.</h1>
 
-			<div class="fotos">
+    <!-- Sticky Navigation -->
+    <nav class="navbar glass">
+        <div class="container nav-content">
+            <div class="logo">TREX<span>.CODES</span></div>
+            <ul class="nav-links">
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="About Me.html">About Me</a></li>
+                <li><a href="Pictures.html" class="active">Gallery</a></li>
+            </ul>
+        </div>
+    </nav>
 
-						<aside class="aside-picture1">			
-							<img class="picture1" src="Assets/night.jpg">
-								<h2 class="comment-image-1">Lorem ipsum.</h2>
-						</aside>
+    <header class="gallery-header container">
+        <div class="header-avatar glass">
+            <img src="Assets/avatar3.jpg" alt="Avatar" class="avatar-img">
+        </div>
+        <h1 class="fade-in">Visualizing <span>Experiments</span></h1>
+        <p class="fade-in-delayed">A collection of responsive designs and creative experiments released under Creative Commons.</p>
+    </header>
 
-						<aside class="aside-picture2">
-							<img class="picture2" src="Assets/street.jpg">
-								<h2 class="comment-image-2">Lorem ipsum dolor.</h2>
-						</aside>	
-						
-						<aside class="aside-picture3">
-							<img class="picture3" src="Assets/avatar3.jpg">
-								<h2 class="comment-image-3">Lorem ipsum dolor.</h2>
-						</aside>
+    <main class="container">
+        <div class="gallery-grid">
+            <figure class="gallery-item glass">
+                <img src="Assets/night.jpg" alt="Night">
+                <figcaption>Midnight Horizon</figcaption>
+            </figure>
 
-						<aside class="aside-picture4">
-							<img class="picture4" src="Assets/tress.jpg">
-								<h2 class="comment-image-4">Lorem ipsum.</h2>
-						</aside>
+            <figure class="gallery-item glass">
+                <img src="Assets/street.jpg" alt="Street">
+                <figcaption>Urban Pulse</figcaption>
+            </figure>
 
-						<aside class="aside-picture5">
-							<img class="picture5" src="Assets/picture.jpg">
-								<h2 class="comment-image-5">Lorem ipsum. </h2>					
-						</aside>		
+            <figure class="gallery-item glass">
+                <img src="Assets/avatar3.jpg" alt="Experiment">
+                <figcaption>Digital Identity</figcaption>
+            </figure>
 
-						<aside class="aside-picture6">
-							<img class="picture6" src="Assets/human.jpg">
-								<h2 class="comment-image-6">Lorem ipsum dolor sit.</h2>
-						</aside>	
+            <figure class="gallery-item glass">
+                <img src="Assets/tress.jpg" alt="Nature">
+                <figcaption>Abstract Nature</figcaption>
+            </figure>
 
-						<aside class="aside-picture7">
-							<img class="picture7" src="Assets/girl.jpg">
-								<h2 class="comment-image-7">Lorem ipsum dolor sit.</h2>
-						</aside>		
-			</div>
-			
-			<hr class="linea-central-final"><br>
-				<p class="copyright-end">&copy;Untitled. All rights reserved. Design by:
-					<a id="CPGit" href="https://github.com/juan1305"> Trex_Codes</a></p>
-	</body>
+            <figure class="gallery-item glass">
+                <img src="Assets/picture.jpg" alt="Vision">
+                <figcaption>Visual Theory</figcaption>
+            </figure>
+
+            <figure class="gallery-item glass">
+                <img src="Assets/human.jpg" alt="Human">
+                <figcaption>Human Connection</figcaption>
+            </figure>
+
+            <figure class="gallery-item glass">
+                <img src="Assets/girl.jpg" alt="Portrait">
+                <figcaption>Ethereal Gaze</figcaption>
+            </figure>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Trex_Codes. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://github.com/juan1305" id="CPGit">GitHub</a>
+                <a href="#">Photography</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
 </html>

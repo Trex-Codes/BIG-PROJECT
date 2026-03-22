@@ -1,118 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>BY JUAN-DEVELOPER WEB</title>
-		<meta name="author" content="Trex-Codes">
-		<meta name="description" content="WebSite about mi life of Programming">
-		<meta name="keywords" content="WebSite, Trex_Codes, Programming, JUAN-DEVELOPER">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1">
-		<link rel="stylesheet" href="Index.css">
-		<link rel="icon" href="Assets/lola.png">
-	</head>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Trex-Codes | Home</title>
+    <meta name="author" content="Trex-Codes">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="Base.css">
+    <link rel="stylesheet" href="Index.css">
+    <link rel="icon" href="Assets/lola.png">
+</head>
 <body>
-	 	<header id="img-background"><br><br>
-		<ul id="barra-principal-total">
-			<li class="barra-principal"><a class="barra-principal" hreF="file:///E:/GEEK/BIG%20PROJECT/PICTURES/PICTURES.html" target="_blank">Pictures</a></li>
 
-			<li class="barra-principal"><a class="barra-principal" hreF="file:///E:/GEEK/BIG%20PROJECT/ABOUT%20ME/ABOUT%20ME.html" target="_blank">About me</a></li>
-		</ul>
+    <!-- Bar Principal -->
+    <header id="header-main">
+        <nav class="nav-bar container">
+            <ul class="nav-links-original">
+                <li><a href="Pictures.html">Pictures</a></li>
+                <li><a href="About Me.html">About me</a></li>
+            </ul>
+        </nav>
+        <div class="header-hero-content container">
+            <h1>THE FUTURE IS HERE</h1>
+            <h2>With your mind you can<br>develop great things</h2>
+            <hr class="hr-primary">
+        </div>
+    </header>
 
-		<!--  CONTEXT TEXT HEADER  -->
-			<h1 id="header-text_1">THE FUTURE IS HERE</h1>
-				<h2 id="sub-header-text">With your mind you can<br>develop great things</h2>
-					<hr id="hr_1">
-		</header>	
-		
-				<!--SECTION 1 -->
-		<section id="section_1">
-				<article id="article_1">
-			<img class="image-article_1" src="Assets/negro.jpg"><br><br><br>
-					<p class="tittle-article_1">Introduction1</p>
-							<hr class="article-hr_1">
-								<p class="text-article_1">
-									In this <span class="portfolio">"lorem"</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias tempora soluta dolore unde tenetur ab nisi commodi optio. Repellat, vero quae beatae voluptate quidem qui.
-									</p>
-				</article>				
-				<article id="article_2">
-			<img class="image-article_2" src="Assets/hobbies.jpg"><br><br>
-					<p class="title-article_2">Introduction2</p>
-							<hr class="article-hr_2">
-								<p class="text-article_2">
-                                   <span class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, voluptatem aliquid unde excepturi dolorem ipsam vitae, adipisci, eaque deserunt ab asperiores sint beatae. Esse iusto eos neque incidunt ad, totam earum rerum necessitatibus velit ea. Minima aperiam, quaerat eligendi unde.</span></p>
-				</article>						
-		</section><br>
+    <!-- SECTION 1 - Introduction -->
+    <section id="section_1">
+        <div class="container grid-2">
+            <article class="article-style-1">
+                <img src="Assets/negro.jpg" alt="Intro 1">
+                <div class="content">
+                    <p class="title">Introduction1</p>
+                    <hr>
+                    <p class="text">In this <span class="highlight">"lorem"</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias tempora soluta dolore unde tenetur ab nisi commodi optio.</p>
+                </div>
+            </article>
 
-		<!-- SECTION 2 -->
-		<section id="section_2">
-			<article id="article_3">
-			<img class="images-article_3" src="Assets/camara2.jpg">
-					<h2 class="title-article_3">SubIntroduction1</h2>
-						<hr class="article-hr_3"><br>
-							<p class="text-article_3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus iure delectus voluptas eius unde repudiandae temporibus atque aut nobis ex, vitae explicabo cum harum recusandae..</p>
-		</article>
-		<article id="article_4">
-			<img class="images-article_4" src="Assets/motive.jpg">
-					<h2 class="title-article_4">SubIntroduction2</h2>
-						<hr class="article-hr_4">
-							<p class="text-article-4">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ullam quaerat dolorum. Laudantium dolores quo tenetur ad assumenda hic modi! Minus praesentium earum aspernatur rem ducimus doloribus qui provident eius..</p>
-		</article>						
-		<article id="article_5">
-			<img class="images-article_5" src="Assets/setup.jpg">
-						<h2 class="title-article_5">SubIntroduction3</h2>
-								<hr class="article-hr_5">
-									<p class="text-article_5">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, repellendus blanditiis provident veniam asperiores saepe error qui numquam commodi perferendis? Facere quis deserunt quasi iusto..</p>
-		</article>
-	</section>
-			<br>
+            <article class="article-style-1">
+                <img src="Assets/hobbies.jpg" alt="Intro 2">
+                <div class="content">
+                    <p class="title">Introduction2</p>
+                    <hr>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, voluptatem aliquid unde excepturi dolorem ipsam vitae, adipisci, eaque deserunt ab asperiores sint.</p>
+                </div>
+            </article>
+        </div>
+    </section>
 
-		<!-- SECTION 3 -->
-		<section id="section_3">
-			<article id="article_6">
-				<input class="form-email" type="email" placeholder="  👤 Email"><br><br>
-					<input class="form-password" type="password" placeholder="  🔒 Password"><br><br><br><br>
-					<aside class="box-continue">
-					<a class="box-continue" href="">Continue</a>
-				</aside>
-						<p class="or">or</p>
-						<hr class="forms-or">
-						<hr class="forms-or2">
-						<aside class="box-google">
-					<a class="box-google" href="">LOG IN WIDTH GOOGLE</a>
-				</aside><br><br>
+    <!-- SECTION 2 - SubIntroduction -->
+    <section id="section_2">
+        <div class="container grid-3">
+            <article class="article-style-2">
+                <img src="Assets/camara2.jpg" alt="Sub 1">
+                <h3>SubIntroduction1</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus iure delectus voluptas eius unde repudiandae temporibus.</p>
+            </article>
 
-				<aside class="box-facebook">
-						<a class="box-facebook" href="">LOG IN WIDTH FACEBOOK</a>
-					</aside>
-					<h2 id="text-no-user">don`t have an account?</h2>
-					<a id="a-span" href="#"><span class="sign-up">SIGN UP</span></a>
-				</article>
+            <article class="article-style-2">
+                <img src="Assets/motive.jpg" alt="Sub 2">
+                <h3>SubIntroduction2</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ullam quaerat dolorum. Laudantium dolores quo tenetur ad assumenda.</p>
+            </article>
 
-				<article id="article_7">
-						<img class="image-article_7" src="Assets/cars.gif">
-						<h2 class="text-article_7">Lorem ipsum dolor</h2>
-				</article>
-				<article id="article_8">
-						<img class="images-article_8" src="Assets/tunnel.gif">
-						<h2 class="text-article_8">Lorem ipsum dolor</h2>
-				</article>
-			
-				<article id="article_9">
-						<img class="images-article_9" src="Assets/light.gif">
-						<h2 class="text-article_9">Lorem ipsum dolor</h2>
-				</article>
-				
-				<article id="article_10">
-						<img class="image-article_10" src="Assets/person.gif">	
-						<h2 class="text-article_10">Lorem ipsum dolor</h2>
-				</article>
-		</section>		
+            <article class="article-style-2">
+                <img src="Assets/setup.jpg" alt="Sub 3">
+                <h3>SubIntroduction3</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, repellendus blanditiis provident veniam asperiores saepe error.</p>
+            </article>
+        </div>
+    </section>
 
-		<footer id="end">
-			<p id="end_1">© Untitled. All  rights reserved. <span class="gitTrex"><a href="https://github.com/juan1305">Trex_Codes</a></span></p>
-		</footer>
+    <!-- SECTION 3 - Login & Visuals -->
+    <section id="section_3">
+        <div class="container section-3-layout">
+            <!-- Form Card -->
+            <article class="login-card">
+                <form class="form-original">
+                    <input type="email" placeholder="👤 Email">
+                    <input type="password" placeholder="🔒 Password">
+                    <button type="submit" class="btn-continue">Continue</button>
+                    
+                    <div class="or-divider">
+                        <hr><span>or</span><hr>
+                    </div>
+
+                    <button class="btn-social google">LOG IN WITH GOOGLE</button>
+                    <button class="btn-social facebook">LOG IN WITH FACEBOOK</button>
+                    
+                    <div class="auth-footer">
+                        <p>don't have an account?</p>
+                        <a href="#">SIGN UP</a>
+                    </div>
+                </form>
+            </article>
+
+            <!-- Visuals Grid -->
+            <div class="visuals-grid">
+                <div class="visual-item">
+                    <img src="Assets/cars.gif" alt="Vis 1">
+                    <p>Lorem ipsum dolor</p>
+                </div>
+                <div class="visual-item">
+                    <img src="Assets/tunnel.gif" alt="Vis 2">
+                    <p>Lorem ipsum dolor</p>
+                </div>
+                <div class="visual-item">
+                    <img src="Assets/light.gif" alt="Vis 3">
+                    <p>Lorem ipsum dolor</p>
+                </div>
+                <div class="visual-item">
+                    <img src="Assets/person.gif" alt="Vis 4">
+                    <p>Lorem ipsum dolor</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer-end">
+        <div class="container">
+            <p>© Untitled. All rights reserved. <a href="https://github.com/juan1305">Trex_Codes</a></p>
+        </div>
+    </footer>
 
 </body>
 </html>
