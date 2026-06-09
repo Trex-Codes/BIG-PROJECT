@@ -10,19 +10,26 @@ _within the project there are 3 different stages in which, each shows an idea fr
 
 _index is basically based on the explanation of the forming of the page in addition to having a previous introduction. and in the final part with a form in which you don't rather have a database with `PHP` or a server where you store the information_
 
-![img](https://github.com/juan1305/0.1-BIG-PROJECT/blob/master/Assets/indexGif.gif)
+### Part 1
+![img](https://github.com/Trex-Codes/BIG-PROJECT/blob/master/ExtraFiles/Index_1.png)
+
+### Part 2
+![img](https://github.com/Trex-Codes/BIG-PROJECT/blob/master/ExtraFiles/Index_2.png)
+
+### Part 3
+![img](https://github.com/Trex-Codes/BIG-PROJECT/blob/master/ExtraFiles/Index_3.png)
 
 2. **ABOUT ME**
 
 _About is a template in which you try to explain a brief biography about the same developer in which it is explained in different aspects_
 
-![img](https://github.com/juan1305/0.1-BIG-PROJECT/blob/master/Assets/aboutMeGif.gif)
+![img](https://github.com/Trex-Codes/BIG-PROJECT/blob/master/ExtraFiles/about_1.png)
 
 3. **PICTURES**
 
 _pictures is about an idea of recursive or a modern design by depicting different photographs_
 
-![img](https://github.com/juan1305/0.1-BIG-PROJECT/blob/master/Assets/PicturesGif.gif)
+![img](https://github.com/Trex-Codes/BIG-PROJECT/blob/master/ExtraFiles/gallery_1.png)
 
 ## Author(s) ✒️
 - _Initial Work, Documentation_ [Trex-Codes](https://github.com/Trex-Codes)
