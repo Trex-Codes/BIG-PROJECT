@@ -31,11 +31,3 @@ _pictures is about an idea of recursive or a modern design by depicting differen
 
 ![img](https://github.com/Trex-Codes/BIG-PROJECT/blob/master/ExtraFiles/gallery_1.png)
 
-## Author(s) ✒️
-- _Initial Work, Documentation_ [Trex-Codes](https://github.com/Trex-Codes)
-
-## Contributions 🖇️
-_The project is currently not in phase for any modification, it may be in the future where an external branch is developed in which changes are made, any developer can also support the idea_ 💬
-
-## License 📄
-_This project is MIT licensed, as found in the LICENSE file. you can look from here_ [LICENSE.md](https://github.com/juan1305/0.1-BIG-PROJECT/blob/master/LICENSE)
